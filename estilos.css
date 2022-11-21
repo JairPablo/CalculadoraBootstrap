@@ -1,0 +1,29 @@
+
+body{
+     color: aliceblue;
+     background-color:rgba(0, 0, 27, 0.932)
+}
+
+#contenedor{
+    margin: auto;
+    margin-top: 40px;
+    width: 600px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.932);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+#barra{
+    color: aliceblue;
+    font-size: 200%;
+}
+
+#resultado{
+    margin: auto;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+
