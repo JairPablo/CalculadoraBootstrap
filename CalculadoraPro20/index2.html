@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora pro 2.0 </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos2.css">
+</head>
+<header>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="barra">
+                <img src="./imagen-logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                CALCULADORA 2.0
+            </a>
+        </div>
+    </nav>
+</header>
+<body>
+
+    <div class="container" id="auto">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contenedor">
+                    <form name="calculadora" class="calculadora" id="calculadora">
+                        <input type="textfield" class="display" id="display" name="display" autocomplete="off" readonly>
+                        <div id="botones">
+                            <input type="reset" class="btn col-2" value="C" id="btn-rojo">
+                            <input type="button" class="btn" value="<-" id="btn-verde">
+                            <input type="button" class="btn" value="%" id="btn-verde" onclick="document.calculadora.display.value+='%'">
+                            <input type="button" class="btn" value="/" id="btn-verde" onclick="document.calculadora.display.value+='/'">
+                            <br>
+                            <input type="button" class="btn" value="7" onclick="document.calculadora.display.value+='7'">
+                            <input type="button" class="btn" value="8" onclick="document.calculadora.display.value+='8'">
+                            <input type="button" class="btn" value="9" onclick="document.calculadora.display.value+='9'">
+                            <input type="button" class="btn" value="X" id="btn-verde" onclick="document.calculadora.display.value+='*'">
+                            <br>
+                            <input type="button" class="btn" value="4" onclick="document.calculadora.display.value+='4'">
+                            <input type="button" class="btn" value="5" onclick="document.calculadora.display.value+='5'">
+                            <input type="button" class="btn" value="6" onclick="document.calculadora.display.value+='6'">
+                            <input type="button" class="btn" value="-" id="btn-verde" onclick="document.calculadora.display.value+='-'">
+                            <br>
+                            <input type="button" class="btn" value="1" onclick="document.calculadora.display.value+='1'">
+                            <input type="button" class="btn" value="2" onclick="document.calculadora.display.value+='2'">
+                            <input type="button" class="btn" value="3" onclick="document.calculadora.display.value+='3'">
+                            <input type="button" class="btn" value="+" id="btn-verde" onclick="document.calculadora.display.value+='+'">
+                            <br>
+                            <input type="button" class="btn" value="00" onclick="document.calculadora.display.value+='00'">
+                            <input type="button" class="btn" value="0" onclick="document.calculadora.display.value+='0'">
+                            <input type="button" class="btn" value="." onclick="document.calculadora.display.value+='.'">
+                            <input type="button" class="btn" value="=" id="btn-fondoVerde" onclick="document.calculadora.display.value=eval(document.calculadora.display.value)">
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./calculadora2.js"></script>
+</body>
+
+</html>

@@ -6,7 +6,7 @@ function sumar(){
     let total = numero1 + numero2;
  
 
-    muestraResultado.innerHTML += '</br>' + numero1 + ' + ' + numero2 + ' = ' + total;
+    muestraResultado.innerHTML += '<br>' + numero1 + ' + ' + numero2 + ' = ' + total;
     cont+=1;
     }
     else{
@@ -20,7 +20,7 @@ function restar(){
         let total = numero1 - numero2;
      
     
-        muestraResultado.innerHTML += '</br>' + numero1 + ' - ' + numero2 + ' = ' + total;
+        muestraResultado.innerHTML += '<br>' + numero1 + ' - ' + numero2 + ' = ' + total;
         cont+=1;
         }
         else{
@@ -34,7 +34,7 @@ function multiplicar(){
         let total = numero1 * numero2;
      
     
-        muestraResultado.innerHTML += '</br>' + numero1 + ' x ' + numero2 + ' = ' + total;
+        muestraResultado.innerHTML += '<br>' + numero1 + ' x ' + numero2 + ' = ' + total;
         cont+=1;
         }
         else{
@@ -49,7 +49,7 @@ function dividir(){
 
         let total  = numero1 / numero2;
 
-        muestraResultado.innerHTML += '</br>' + numero1 + ' / ' + numero2 + ' = ' + total ;
+        muestraResultado.innerHTML += '<br>' + numero1 + ' / ' + numero2 + ' = ' + total ;
         cont+=1;
         }
         else{
