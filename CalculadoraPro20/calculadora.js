@@ -10,7 +10,7 @@ function sumar(){
     cont+=1;
     }
     else{
-        alert('Presione el boton "LIMPIAR PANTALLA" para seguir operando')
+        alert('Presione el boton "C" para seguir operando')
     }
 }
 function restar(){
@@ -24,7 +24,7 @@ function restar(){
         cont+=1;
         }
         else{
-            alert('Presione el boton "LIMPIAR PANTALLA" para seguir operando')
+            alert('Presione el boton "C" para seguir operando')
         }
 }
 function multiplicar(){
@@ -38,7 +38,7 @@ function multiplicar(){
         cont+=1;
         }
         else{
-            alert('Presione el boton "LIMPIAR PANTALLA" para seguir operando')
+            alert('Presione el boton "C" para seguir operando')
         }
 }
 function dividir(){
@@ -57,7 +57,7 @@ function dividir(){
         }
     }
     else{
-        alert('Presione el boton "LIMPIAR PANTALLA" para seguir operando')
+        alert('Presione el boton "C" para seguir operando')
     }
 }
 
