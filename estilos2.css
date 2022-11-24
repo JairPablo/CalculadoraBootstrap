@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 
 }
 
-body{
+body {
     background: linear-gradient(to left, rgb(56, 56, 56), rgb(1, 1, 39))
 }
 
-.comtainer{
+.comtainer {
     display: flex;
 }
 
-.calculadora1{
+.calculadora1 {
     background-color: black;
     color: white;
     height: 550px;
@@ -25,7 +25,7 @@ body{
     margin-top: 25px;
 }
 
-.btn{
+.btn {
     background-color: rgb(44, 44, 44, 0.7);
     color: white;
     width: 56px;
@@ -37,8 +37,9 @@ body{
     border-radius: 100%;
     font-weight: 500;
 }
-#display{
- 
+
+#display {
+
     height: 40%;
     width: 100%;
     background-color: black;
@@ -50,31 +51,34 @@ body{
     font-weight: 500;
     outline: none;
 }
-#btn-rojo{
+
+#btn-rojo {
     color: red;
-    font-weight: 800;  
+    font-weight: 800;
     grid-column: span 2;
 }
 
-#btn-verde{
+#btn-verde {
     color: rgb(39, 128, 39);
     font-weight: 800;
 }
 
-#btn-fondoVerde{
+#btn-fondoVerde {
     background-color: rgb(39, 128, 39);
     font-weight: 800;
 }
-#barra{
+
+#barra {
     color: aliceblue;
     font-size: 200%;
 }
 
 
-#calculadora2{
+#calculadora2 {
     margin: auto;
+    margin-left: 0px;
     margin-top: 25px;
-    width: 600px;
+    width: 450px;
     height: auto;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
@@ -83,17 +87,18 @@ body{
 
 }
 
-#resultado{
+#resultado {
     margin: auto;
     margin-top: 50px;
     color: aliceblue;
 }
 
 
-#form-cal2{
+#form-cal2 {
     font-size: 18px;
 }
 
-#form-cal2 #n1, #n2{
+#form-cal2 #n1,
+#n2 {
     font-weight: 800;
 }
