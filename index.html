@@ -47,7 +47,7 @@
                                 onclick="document.calculadora.display.value+='8'">
                             <input type="button" class="btn" value="9"
                                 onclick="document.calculadora.display.value+='9'">
-                            <input type="button" class="btn" value="X" id="btn-verde"
+                            <input type="button" class="btn" value="x" id="btn-verde"
                                 onclick="document.calculadora.display.value+='*'">
                             <br>
                             <input type="button" class="btn" value="4"
@@ -96,12 +96,12 @@
                         </div>
 
                         <div class="text-center" id="btn-cal2">
-                            <button type="button" onclick="sumar()" class="btn">+</button>
-                            <button type="button" onclick="restar()" class="btn">-</button>
-                            <button type="button" onclick="multiplicar()" class="btn">*</button>
-                            <button type="button" onclick="dividir()" class="btn">/</button>
+                            <button type="button" onclick="sumar()" class="btn" id="btn-verde">+</button>
+                            <button type="button" onclick="restar()" class="btn" id="btn-verde">-</button>
+                            <button type="button" onclick="multiplicar()" class="btn" id="btn-verde">x</button>
+                            <button type="button" onclick="dividir()" class="btn" id="btn-verde">/</button>
                         </div>
-                        <div class="col-md-4 text-center" id="resultado">
+                        <div class="col-md-4 text-center" id="resultado">   
                             <label for="" class="form-label">RESULTADOS:</label>
                             <div id="muestraResultado"></div>
                         </div>
